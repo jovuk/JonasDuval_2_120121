@@ -1,0 +1,59 @@
+section div ul {
+    padding: 0;
+}
+
+section div ul li {
+    margin: 0 10px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+section div ul li:hover {
+    color: var(--dark-blue);
+}
+
+section div ul li:nth-child(n+1){
+    border: solid 2px;
+    border-color: var(--background-grey);
+    padding: 10px 20px 10px 55px;
+    position: relative;
+}
+
+section div ul li div {
+    display: inline-block;
+    width: 43px;
+    height: 43px;   
+    border-radius: 50%;
+    background-color: var(--light-blue);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+section div ul li:nth-child(n+1) .fas{
+    color: var(--dark-blue);
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    transform: translate(-6px, -5px);
+    font-size: 18px;
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    #filters{
+        display:block;
+        margin: 0 10px
+    }
+
+    section div ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section div ul li {
+        margin: 5px 10px;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+}

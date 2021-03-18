@@ -1,0 +1,137 @@
+.cards{
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.cards img{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.cards h4, aside article h4 {
+    margin: 2px 0;
+}
+
+.cards p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+aside article{
+    width: 100%;
+    height: 135px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+aside article .long {
+    display: flex;
+}
+
+aside article img{
+    width: 40%;
+    height: 125px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+aside article .long {
+    text-decoration: none;
+    color: black;
+}
+
+aside article .long .data{
+    padding: 10px;
+}
+
+aside article .long .stars .fa-star {
+    font-size: 10px;
+}
+
+aside article p {
+    margin: 0 0 25px 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.fa-star {
+    font-size: 12px;
+	color: var(--background-grey);
+
+}
+
+.fa-star.blue {
+	color: var(--dark-blue);
+}
+
+.stars {
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1210px){
+    aside article p {
+        margin: 0 0 5px 0;
+    }
+
+    .cards h4, aside article h4 {
+        font-size: 13px;
+    }
+}
+
+
+
+@media only screen and (min-width: 760px) and (max-width: 1024px){
+    aside article{
+        width: 60%;
+        margin: 10px auto;
+        height: 130px;
+    }
+
+    aside article img{
+        box-sizing: border-box;
+        height: 130px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+    aside article{
+        width: 90%;
+        margin: 10px auto;
+        height: 130px;
+    }
+
+    aside article img{
+        height: 120px;
+    }
+
+    aside article:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .cards{
+        width: 90%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .fa-star {
+        padding:0;
+    }
+}
