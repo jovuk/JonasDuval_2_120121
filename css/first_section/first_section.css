@@ -38,7 +38,7 @@ section form div:first-of-type {
     width: 10%;
 }
 
-#search_smartphone{
+#search_small{
     display: none;
 }
 
@@ -117,7 +117,7 @@ section #filters h4{
         display: none;
     }
 
-    #search_smartphone{
+    #search_small{
         display: block;
         background-color: var(--dark-blue);
         border: none;
@@ -163,7 +163,7 @@ section #filters h4{
         display: none;
     }
 
-    #search_smartphone{
+    #search_small{
         display: block;
         background-color: var(--dark-blue);
         border: none;

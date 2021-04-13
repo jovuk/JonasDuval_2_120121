@@ -41,7 +41,7 @@ header nav img {
     height: 7%;
 }
 
-#smartphone{
+#small{
     display:none;
 }
 
@@ -94,7 +94,7 @@ header nav img {
         padding: 15px 0;
     }
     
-    #smartphone{
+    #small{
         display:none;
     }
 }
@@ -113,22 +113,22 @@ header nav img {
         font-weight: 300; 
     }
 
-    #desktop{
+    #wide{
         display: none;
     }
 
-    #smartphone{
+    #small{
         display: flex;
         flex-wrap: wrap;
     }
 
-    #smartphone a {
+    #small a {
         text-decoration: none; 
         color: black; 
         font-weight: 300; 
     }
 
-    #smartphone div:first-of-type a:first-of-type{
+    #small div:first-of-type a:first-of-type{
         position: absolute;
         top: 30px;
         right: 30px;
@@ -136,24 +136,24 @@ header nav img {
         color: var(--dark-blue);
     }
 
-    #smartphone div:nth-of-type(2){
+    #small div:nth-of-type(2){
         display: flex;
         width:100%;
         height: 30px;
     }
 
-    #smartphone div:nth-of-type(2) a {
+    #small div:nth-of-type(2) a {
         text-align: center;
         flex:1;
         border-bottom: 2px solid grey;
     }
 
-    #smartphone div:nth-of-type(2) a:hover{
+    #small div:nth-of-type(2) a:hover{
         color: var(--dark-blue);
         border-bottom: 2px solid var(--dark-blue);
     }
 
-    #smartphone div img{
+    #small div img{
         width: 20%;
         padding: 20px;
     }
